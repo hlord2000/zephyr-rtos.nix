@@ -16,7 +16,6 @@ let
     cbor
     colorama
     coverage
-    gcovr
     graphviz
     grpcio-tools
     intelhex
@@ -76,6 +75,7 @@ pkgs.gccMultiStdenv.mkDerivation ({
     pahole
     hidrd
     gitlint
+    gcovr
 
     mcuboot-imgtool
     clang-tools_16

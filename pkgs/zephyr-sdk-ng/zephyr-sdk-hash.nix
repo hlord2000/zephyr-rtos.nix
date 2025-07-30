@@ -2331,4 +2331,354 @@
       };
     };
   };
+  "0.17.2" = {
+    "linux-aarch64" = {
+      hosttools = {
+        file = "hosttools_linux-aarch64.tar.xz";
+        hash = "sha256-8F2iym6kIdyUK2nF0fVLYwVHpf/Av3SM7+jazIbgyyQ=";
+      };
+      full = {
+        file = "zephyr-sdk-0.17.2_linux-aarch64.tar.xz";
+        hash = "sha256-QJ61Q+Yd16nOR37KpUHyzvLhwZqBvBg1XDuu3By4FD8=";
+      };
+      minimal = {
+        file = "zephyr-sdk-0.17.2_linux-aarch64_minimal.tar.xz";
+        hash = "sha256-Q54byUgjznyoM85GIyrP+crky7x+tECHXXNjyQlOJDs=";
+      };
+      toolchains = {
+        "aarch64-zephyr-elf" = {
+          file = "toolchain_linux-aarch64_aarch64-zephyr-elf.tar.xz";
+          hash = "sha256-A0M+3Esuqr/besmNy0JOR6PriUMh1Z0cZdhw13TvcVA=";
+        };
+        "arc64-zephyr-elf" = {
+          file = "toolchain_linux-aarch64_arc64-zephyr-elf.tar.xz";
+          hash = "sha256-wp0k/8xDUI40kFMPJpZty8gwNk3MYg0H+hx3PEjQnns=";
+        };
+        "arc-zephyr-elf" = {
+          file = "toolchain_linux-aarch64_arc-zephyr-elf.tar.xz";
+          hash = "sha256-JG5BUwIPROBaMjpsD6ref8w0utVPUMQXHOayUef1e04=";
+        };
+        "arm-zephyr-eabi" = {
+          file = "toolchain_linux-aarch64_arm-zephyr-eabi.tar.xz";
+          hash = "sha256-Mleef6TlbPDVMS6sACHpLZ7EftLObsDn9rN7+XeaT9c=";
+        };
+        "mips-zephyr-elf" = {
+          file = "toolchain_linux-aarch64_mips-zephyr-elf.tar.xz";
+          hash = "sha256-BjKdt+DiK5mXAHRJo1VEG6p0n24RkAaq4bGqHCO77G8=";
+        };
+        "nios2-zephyr-elf" = {
+          file = "toolchain_linux-aarch64_nios2-zephyr-elf.tar.xz";
+          hash = "sha256-sL1ZeFTM0PsDb1LrMEcatOFC4cpEVDNOHm6tAcmOH6Y=";
+        };
+        "riscv64-zephyr-elf" = {
+          file = "toolchain_linux-aarch64_riscv64-zephyr-elf.tar.xz";
+          hash = "sha256-QWF1p5teWPP8Gn9mwdKcQ6LbBCpWUlNYsiSLEM0ao/M=";
+        };
+        "sparc-zephyr-elf" = {
+          file = "toolchain_linux-aarch64_sparc-zephyr-elf.tar.xz";
+          hash = "sha256-WZMlyFgDLwJhOQN9mskKTcf7oV7xDFt82UR3I03ZYr4=";
+        };
+        "x86_64-zephyr-elf" = {
+          file = "toolchain_linux-aarch64_x86_64-zephyr-elf.tar.xz";
+          hash = "sha256-K+4yba1RK0ig3bZshXggtr6qm8s7uktn9pwjjPmBYjE=";
+        };
+        "xtensa-espressif_esp32_zephyr-elf" = {
+          file = "toolchain_linux-aarch64_xtensa-espressif_esp32_zephyr-elf.tar.xz";
+          hash = "sha256-hVHvcLizWZKmUnb6XHCIc/FgdvfD9+sbtjkE9Wo9kZY=";
+        };
+        "xtensa-espressif_esp32s2_zephyr-elf" = {
+          file = "toolchain_linux-aarch64_xtensa-espressif_esp32s2_zephyr-elf.tar.xz";
+          hash = "sha256-4OBLt8dwtT6l8VZUb4kgoNMD2U8sOT7qwkH2OOEx3jU=";
+        };
+        "xtensa-nxp_imx_adsp_zephyr-elf" = {
+          file = "toolchain_linux-aarch64_xtensa-nxp_imx_adsp_zephyr-elf.tar.xz";
+          hash = "sha256-+XeEXi5VPiUd9LhvBAwvX/DSit1It6FyUr7DMOKkGUY=";
+        };
+        "xtensa-nxp_imx8m_adsp_zephyr-elf" = {
+          file = "toolchain_linux-aarch64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.xz";
+          hash = "sha256-5frH2bYslvB5edrjk8I2cLWaSjeP8VMm17K60nA/tKw=";
+        };
+        "xtensa-sample_controller_zephyr-elf" = {
+          file = "toolchain_linux-aarch64_xtensa-sample_controller_zephyr-elf.tar.xz";
+          hash = "sha256-3yg8a7Ec7QEicrnct9FlE8UXogk2DaOcANHO8Ee4xNA=";
+        };
+      };
+    };
+    "linux-x86_64" = {
+      hosttools = {
+        file = "hosttools_linux-x86_64.tar.xz";
+        hash = "sha256-AbOHhCf8WGLliIH5hyzLaMKNgN2yBZ0hHXLYpLweVmI=";
+      };
+      full = {
+        file = "zephyr-sdk-0.17.2_linux-x86_64.tar.xz";
+        hash = "sha256-/LyudxGZqxQVHxMV7PndrmucZWzYQwm61rNHh7ONkwo=";
+      };
+      minimal = {
+        file = "zephyr-sdk-0.17.2_linux-x86_64_minimal.tar.xz";
+        hash = "sha256-qVCCFQ1d9iVfaC8F6rACKLhYREtYHbkOxH5d7QkMp00=";
+      };
+      toolchains = {
+        "aarch64-zephyr-elf" = {
+          file = "toolchain_linux-x86_64_aarch64-zephyr-elf.tar.xz";
+          hash = "sha256-plgHki7votNJv7gCmJ8fb0v6Y/iaJ04HScZJTeRqsvs=";
+        };
+        "arc64-zephyr-elf" = {
+          file = "toolchain_linux-x86_64_arc64-zephyr-elf.tar.xz";
+          hash = "sha256-eTOnwl8mUcZmE7Xv3yIaXj1zFtfctFHcSZ/3YceMLEk=";
+        };
+        "arc-zephyr-elf" = {
+          file = "toolchain_linux-x86_64_arc-zephyr-elf.tar.xz";
+          hash = "sha256-asyS0Ai2/zZLL2b+Ggzxi9PRshAGaizDJD8XBJFb9/E=";
+        };
+        "arm-zephyr-eabi" = {
+          file = "toolchain_linux-x86_64_arm-zephyr-eabi.tar.xz";
+          hash = "sha256-7L+zYqk0eyR4SNXY/6e9f/VmaJu7R83et+UEyH8UPRc=";
+        };
+        "mips-zephyr-elf" = {
+          file = "toolchain_linux-x86_64_mips-zephyr-elf.tar.xz";
+          hash = "sha256-JLBl3bF5bj6AmfcMZr3M182Iu7J0F7W5Clc8wdNdKRA=";
+        };
+        "nios2-zephyr-elf" = {
+          file = "toolchain_linux-x86_64_nios2-zephyr-elf.tar.xz";
+          hash = "sha256-fjw/+zPS3B9ogAFBuIfW/CmeFR4vb8ac5l//gpreNyY=";
+        };
+        "riscv64-zephyr-elf" = {
+          file = "toolchain_linux-x86_64_riscv64-zephyr-elf.tar.xz";
+          hash = "sha256-NLf5sMIVmdCqjO/L76yRrTxmWpfmYEY9DzHotbZtpog=";
+        };
+        "sparc-zephyr-elf" = {
+          file = "toolchain_linux-x86_64_sparc-zephyr-elf.tar.xz";
+          hash = "sha256-kU+uBqHzpGY9QqNj7u9w+ndvKZC+0dTeS0ijkqMIsL0=";
+        };
+        "x86_64-zephyr-elf" = {
+          file = "toolchain_linux-x86_64_x86_64-zephyr-elf.tar.xz";
+          hash = "sha256-JAtYW08nJjSyUPqU7JvD//eM3YweC6hPnhKEqxPbm1A=";
+        };
+        "xtensa-espressif_esp32_zephyr-elf" = {
+          file = "toolchain_linux-x86_64_xtensa-espressif_esp32_zephyr-elf.tar.xz";
+          hash = "sha256-3DilippMfzn8wdTSPRoz4H/N0kKUpGesOfjg4VhjhBc=";
+        };
+        "xtensa-espressif_esp32s2_zephyr-elf" = {
+          file = "toolchain_linux-x86_64_xtensa-espressif_esp32s2_zephyr-elf.tar.xz";
+          hash = "sha256-nuKBGFZDIRpQ18AgwDtVFay/3I1GCsFwUWiK4SWvOlw=";
+        };
+        "xtensa-nxp_imx_adsp_zephyr-elf" = {
+          file = "toolchain_linux-x86_64_xtensa-nxp_imx_adsp_zephyr-elf.tar.xz";
+          hash = "sha256-JktIuBI2enpJmOg1WGZrjmqLmn47K12nEg1NeSxBRLg=";
+        };
+        "xtensa-nxp_imx8m_adsp_zephyr-elf" = {
+          file = "toolchain_linux-x86_64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.xz";
+          hash = "sha256-cbfnzKClgNfLeEdXcxOdmdvZeWD8vMRduXgwtSCtOa0=";
+        };
+        "xtensa-sample_controller_zephyr-elf" = {
+          file = "toolchain_linux-x86_64_xtensa-sample_controller_zephyr-elf.tar.xz";
+          hash = "sha256-6t60cqeU53yEu1BXqQEjoCkahLJwuXWuBMqLfDqMgRo=";
+        };
+      };
+    };
+    "macos-x86_64" = {
+      full = {
+        file = "zephyr-sdk-0.17.2_macos-x86_64.tar.xz";
+        hash = "sha256-AXMBQeVeJghA7XZyq/dOfovGuX2PxiuxqHFRXPtAopU=";
+      };
+      minimal = {
+        file = "zephyr-sdk-0.17.2_macos-x86_64_minimal.tar.xz";
+        hash = "sha256-6FCS/B7Y7SoBk+UWY8xActVOIJPlS42xlnIXIkOfXEY=";
+      };
+      toolchains = {
+        "aarch64-zephyr-elf" = {
+          file = "toolchain_macos-x86_64_aarch64-zephyr-elf.tar.xz";
+          hash = "sha256-RD08vZYUaTB+4l9hZxHkFBTfcQhQ7/aVO31FFbudbrY=";
+        };
+        "arc64-zephyr-elf" = {
+          file = "toolchain_macos-x86_64_arc64-zephyr-elf.tar.xz";
+          hash = "sha256-y5ULYDWNGLVllIflXjWxOpK46XpvfCGHw2no4iTRTW8=";
+        };
+        "arc-zephyr-elf" = {
+          file = "toolchain_macos-x86_64_arc-zephyr-elf.tar.xz";
+          hash = "sha256-T794q2JHIdtuzWh7/2MnaZfZ/bV4/AOmqOmUwNR4L6Q=";
+        };
+        "arm-zephyr-eabi" = {
+          file = "toolchain_macos-x86_64_arm-zephyr-eabi.tar.xz";
+          hash = "sha256-2wpzNcrzV7KIrBy5RnJjCYwJeYbCz+6vjpUpxVEF/8g=";
+        };
+        "mips-zephyr-elf" = {
+          file = "toolchain_macos-x86_64_mips-zephyr-elf.tar.xz";
+          hash = "sha256-4fp4ZWuNZpu2TnKVU4raKIizPfu8qj4GxruiQXZxg+s=";
+        };
+        "nios2-zephyr-elf" = {
+          file = "toolchain_macos-x86_64_nios2-zephyr-elf.tar.xz";
+          hash = "sha256-b/cQD5iWWu4f4v3jTgvaLZPyxMaHanog+OpHgXyTac8=";
+        };
+        "riscv64-zephyr-elf" = {
+          file = "toolchain_macos-x86_64_riscv64-zephyr-elf.tar.xz";
+          hash = "sha256-IvU4x65q2V00GQOhH2ua+oZzV5fxtUnsQAGtpVeg0Dc=";
+        };
+        "sparc-zephyr-elf" = {
+          file = "toolchain_macos-x86_64_sparc-zephyr-elf.tar.xz";
+          hash = "sha256-JFDIjnaTrYrbPRChdw8Aoj4pSdxCMMDk4iEFdgPmnSg=";
+        };
+        "x86_64-zephyr-elf" = {
+          file = "toolchain_macos-x86_64_x86_64-zephyr-elf.tar.xz";
+          hash = "sha256-P1QMT9dqiEK1tkR2xbtVoz5EY3YGtSDd2IZIuOX7ai0=";
+        };
+        "xtensa-espressif_esp32_zephyr-elf" = {
+          file = "toolchain_macos-x86_64_xtensa-espressif_esp32_zephyr-elf.tar.xz";
+          hash = "sha256-8PZRh3ZcGwXTixt+h57rw93VxmqlRpJiywm+jfT9bW8=";
+        };
+        "xtensa-espressif_esp32s2_zephyr-elf" = {
+          file = "toolchain_macos-x86_64_xtensa-espressif_esp32s2_zephyr-elf.tar.xz";
+          hash = "sha256-COcCE3WIUh8036rH29SLZ8d8b7yPOEh0OjzjsZ8+E48=";
+        };
+        "xtensa-nxp_imx_adsp_zephyr-elf" = {
+          file = "toolchain_macos-x86_64_xtensa-nxp_imx_adsp_zephyr-elf.tar.xz";
+          hash = "sha256-heo6dSPdWIZZWWA4MWb3jRGvT194J76lOIjrWg71BXw=";
+        };
+        "xtensa-nxp_imx8m_adsp_zephyr-elf" = {
+          file = "toolchain_macos-x86_64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.xz";
+          hash = "sha256-t8kppVZK+qRbl6gdOq/p9ivKJ03qeZnWXN3gczr1qjM=";
+        };
+        "xtensa-sample_controller_zephyr-elf" = {
+          file = "toolchain_macos-x86_64_xtensa-sample_controller_zephyr-elf.tar.xz";
+          hash = "sha256-030WAAX435HBu6CKWcnzcvUtEau4YBngHF/wNGevbns=";
+        };
+      };
+    };
+    "macos-aarch64" = {
+      full = {
+        file = "zephyr-sdk-0.17.2_macos-aarch64.tar.xz";
+        hash = "sha256-WkgrU229fwSeZuUJKaUBKfgV4A5E+mnIecreRtQcHEU=";
+      };
+      minimal = {
+        file = "zephyr-sdk-0.17.2_macos-aarch64_minimal.tar.xz";
+        hash = "sha256-7500/aCpIDfJi3wogk5Tb5QY+Ss+7swVCYZB6EPH18g=";
+      };
+      toolchains = {
+        "aarch64-zephyr-elf" = {
+          file = "toolchain_macos-aarch64_aarch64-zephyr-elf.tar.xz";
+          hash = "sha256-YtWKWLtVJTeOAEs2Xg8WlHVm04ci4Y0T4FSzgo93zqA=";
+        };
+        "arc64-zephyr-elf" = {
+          file = "toolchain_macos-aarch64_arc64-zephyr-elf.tar.xz";
+          hash = "sha256-q5UJgZUu9XU55qgoCD9nN+m67W6c/d0HJJJriXd5MLE=";
+        };
+        "arc-zephyr-elf" = {
+          file = "toolchain_macos-aarch64_arc-zephyr-elf.tar.xz";
+          hash = "sha256-uJI//URBt+fYx+5Yrs5YqsSqoj7C3CdPvbDdUfxU9d4=";
+        };
+        "arm-zephyr-eabi" = {
+          file = "toolchain_macos-aarch64_arm-zephyr-eabi.tar.xz";
+          hash = "sha256-g7wWcnPZIIEhwuvmeg9KKZEO/rosDUeSjxfoXoj4IAc=";
+        };
+        "mips-zephyr-elf" = {
+          file = "toolchain_macos-aarch64_mips-zephyr-elf.tar.xz";
+          hash = "sha256-Jk549BhGxyy9i+l8UEXhRjX5glF4Qq+C1vMO0Mz7dvk=";
+        };
+        "nios2-zephyr-elf" = {
+          file = "toolchain_macos-aarch64_nios2-zephyr-elf.tar.xz";
+          hash = "sha256-goxFEOIAFYNGcsu+WZ6kXNAq012xMgYk7t7oaBijhSU=";
+        };
+        "riscv64-zephyr-elf" = {
+          file = "toolchain_macos-aarch64_riscv64-zephyr-elf.tar.xz";
+          hash = "sha256-LFX226+yIneuS2kyuhoqUJDIQlsOUqib7sc95YuoX7A=";
+        };
+        "sparc-zephyr-elf" = {
+          file = "toolchain_macos-aarch64_sparc-zephyr-elf.tar.xz";
+          hash = "sha256-xpRDI0W6vxco7M5PPhiak0Stz6UJTzLAZ292pFFk/iE=";
+        };
+        "x86_64-zephyr-elf" = {
+          file = "toolchain_macos-aarch64_x86_64-zephyr-elf.tar.xz";
+          hash = "sha256-MV3SPWkhO0BsBK8JnRFcjEo29AvkiODrDDOEOdc+k4Q=";
+        };
+        "xtensa-espressif_esp32_zephyr-elf" = {
+          file = "toolchain_macos-aarch64_xtensa-espressif_esp32_zephyr-elf.tar.xz";
+          hash = "sha256-H5SerDOYVJx36jbe+NKvSmiTUEN0fNMpfZNlLV2FZW0=";
+        };
+        "xtensa-espressif_esp32s2_zephyr-elf" = {
+          file = "toolchain_macos-aarch64_xtensa-espressif_esp32s2_zephyr-elf.tar.xz";
+          hash = "sha256-2TO7M2JlBXoT0hU01/5lxeQes5CgXY5mzsa8mk3l3N8=";
+        };
+        "xtensa-nxp_imx_adsp_zephyr-elf" = {
+          file = "toolchain_macos-aarch64_xtensa-nxp_imx_adsp_zephyr-elf.tar.xz";
+          hash = "sha256-505ctk51p7ICa8uP6KdOzfkuISLuSQq51ya82nimJUw=";
+        };
+        "xtensa-nxp_imx8m_adsp_zephyr-elf" = {
+          file = "toolchain_macos-aarch64_xtensa-nxp_imx8m_adsp_zephyr-elf.tar.xz";
+          hash = "sha256-Y8kr5jbZystzeAC9fnA/ha2TRTekH6PiKE9vIvbTXsM=";
+        };
+        "xtensa-sample_controller_zephyr-elf" = {
+          file = "toolchain_macos-aarch64_xtensa-sample_controller_zephyr-elf.tar.xz";
+          hash = "sha256-M1CdrmgLLHOJNBdGWjVmCgrOzxKhj4SApwrBTOgStuc=";
+        };
+      };
+    };
+    "windows-x86_64" = {
+      full = {
+        file = "zephyr-sdk-0.17.2_windows-x86_64.7z";
+        hash = "sha256-r1vKuSY3gA+AgUMtaiem+03MmUvnD7fFTcVfp5K/RkU=";
+      };
+      minimal = {
+        file = "zephyr-sdk-0.17.2_windows-x86_64_minimal.7z";
+        hash = "sha256-gZxpiODH6rMVaJVj14QktoNdgq5J5Zq+J9ETnJBeQ0w=";
+      };
+      toolchains = {
+        "aarch64-zephyr-elf" = {
+          file = "toolchain_windows-x86_64_aarch64-zephyr-elf.7z";
+          hash = "sha256-D5d5ok+s6e/W2/IU0fFgaFmS2BSRYn5FAxdxv2aDqQU=";
+        };
+        "arc64-zephyr-elf" = {
+          file = "toolchain_windows-x86_64_arc64-zephyr-elf.7z";
+          hash = "sha256-dAZHVxtK32zsk83I07FqdvX9KG1ys/Q12wQwI3TxFjw=";
+        };
+        "arc-zephyr-elf" = {
+          file = "toolchain_windows-x86_64_arc-zephyr-elf.7z";
+          hash = "sha256-6/CZmi59YNQ0AsqCjIK45b1xiWCsMzvTMK9sIy1my8E=";
+        };
+        "arm-zephyr-eabi" = {
+          file = "toolchain_windows-x86_64_arm-zephyr-eabi.7z";
+          hash = "sha256-0p4npCI/7mqGb3LGkyJJPpd2fFaPUe6w2z8TXTsgDaE=";
+        };
+        "mips-zephyr-elf" = {
+          file = "toolchain_windows-x86_64_mips-zephyr-elf.7z";
+          hash = "sha256-YS9OFnFM0zYE+hokOpJVgxBeKXXX6M7MjStD7j5XiBA=";
+        };
+        "nios2-zephyr-elf" = {
+          file = "toolchain_windows-x86_64_nios2-zephyr-elf.7z";
+          hash = "sha256-mTzaj7HxuVEeacATuZWo7AvShFMid7Ysro/HCGEr1bo=";
+        };
+        "riscv64-zephyr-elf" = {
+          file = "toolchain_windows-x86_64_riscv64-zephyr-elf.7z";
+          hash = "sha256-eN/z07v0KJyKQ4LuG/5rGNuYIzzxu4gaMGl2p3DHWSc=";
+        };
+        "sparc-zephyr-elf" = {
+          file = "toolchain_windows-x86_64_sparc-zephyr-elf.7z";
+          hash = "sha256-Vpb32H3mJzQxTTReUUV0By0od4lelEOADc27xq9ay7o=";
+        };
+        "x86_64-zephyr-elf" = {
+          file = "toolchain_windows-x86_64_x86_64-zephyr-elf.7z";
+          hash = "sha256-k0p8qtZEDkBfp4z/o+9AMO8RtxHs3xAwJI3cpeUZPJ8=";
+        };
+        "xtensa-espressif_esp32_zephyr-elf" = {
+          file = "toolchain_windows-x86_64_xtensa-espressif_esp32_zephyr-elf.7z";
+          hash = "sha256-9Nb6/wCfa01DNyDoEbcvv+iyUC5zhLbkOX9n7GV9qAs=";
+        };
+        "xtensa-espressif_esp32s2_zephyr-elf" = {
+          file = "toolchain_windows-x86_64_xtensa-espressif_esp32s2_zephyr-elf.7z";
+          hash = "sha256-tSk0n3g2b4B8Zg6wQ+rrjAdwDAFWgAgxE5DWlMGPvu8=";
+        };
+        "xtensa-nxp_imx_adsp_zephyr-elf" = {
+          file = "toolchain_windows-x86_64_xtensa-nxp_imx_adsp_zephyr-elf.7z";
+          hash = "sha256-qbYMS0D2CIUusr0hEA2IOf3anrIllPpRAUVM2ys1nH4=";
+        };
+        "xtensa-nxp_imx8m_adsp_zephyr-elf" = {
+          file = "toolchain_windows-x86_64_xtensa-nxp_imx8m_adsp_zephyr-elf.7z";
+          hash = "sha256-jf6RQzqcSnF4mtpqlq5huAEyWowLIqAiuGjYfey8MOY=";
+        };
+        "xtensa-sample_controller_zephyr-elf" = {
+          file = "toolchain_windows-x86_64_xtensa-sample_controller_zephyr-elf.7z";
+          hash = "sha256-CqMsRbxoLdJKpzqXVceqV3G1LCs4XBKUekiFgaMGirY=";
+        };
+      };
+    };
+  };
 }
